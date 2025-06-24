@@ -7,7 +7,7 @@ steps :
 
 2. install node in local sysytem
 
-'''
+```
 # Download and install nvm:
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 # in lieu of restarting the shell
@@ -20,4 +20,4 @@ nvm current # Should print "v22.16.0".
 # Verify npm version:
 npm -v # Should print "10.9.2".
 
-'''
+```
