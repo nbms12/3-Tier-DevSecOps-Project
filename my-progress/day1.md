@@ -38,6 +38,12 @@ npm -v # Should print "10.9.2".
 
 7.add ports for security groups ( 5000, 3000 ) 
 
+8. start local build
+
+   ```
+   npm start
+   ```
+
 8. verify wit public ip and port 3000
 
    ![image](https://github.com/user-attachments/assets/690f766d-1f77-4bc5-b91b-2f3e6cb8df20)
