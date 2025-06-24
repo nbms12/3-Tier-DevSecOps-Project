@@ -21,3 +21,23 @@ nvm current # Should print "v22.16.0".
 npm -v # Should print "10.9.2".
 
 ```
+
+3. install dependencies of backend ( ie under API folder )
+
+   use > npm install
+
+
+4. install dependencies of frontend ( ie under client folder )
+
+   npm install
+
+
+5. install mysql ( used docx file instructions  )
+
+6.update .env file api url ( under client folder ) tis will endpoint interacts to frontend of app 
+
+7.add ports for security groups ( 5000, 3000 ) 
+
+8. verify wit public ip and port 3000
+
+   ![image](https://github.com/user-attachments/assets/690f766d-1f77-4bc5-b91b-2f3e6cb8df20)
