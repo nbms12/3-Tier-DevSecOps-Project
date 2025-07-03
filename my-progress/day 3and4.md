@@ -11,6 +11,10 @@ add ports inside jenkins server ,
 ![image](https://github.com/user-attachments/assets/62093d87-cf5f-4f9c-be62-d5084d5caf7c)
 
 
+jenkins stages view 
+
+![image](https://github.com/user-attachments/assets/41422369-3de5-443e-ba0e-6eedfbca1df1)
+
 
 
 ![image](https://github.com/user-attachments/assets/b376aa70-588e-43ef-9212-20bb6cba86aa)
