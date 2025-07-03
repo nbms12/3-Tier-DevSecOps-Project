@@ -109,5 +109,10 @@ jenkins stages view
 ![image](https://github.com/user-attachments/assets/41422369-3de5-443e-ba0e-6eedfbca1df1)
 
 
+check contianers run status 
+
+![image](https://github.com/user-attachments/assets/96213bd7-0ef0-4b2a-be67-0d48008ad6c1)
+
+
 
 ![image](https://github.com/user-attachments/assets/b376aa70-588e-43ef-9212-20bb6cba86aa)
