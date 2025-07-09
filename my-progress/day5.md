@@ -22,7 +22,19 @@ kubectl create namespace -n dev
 ```
 5. inside jenkins server create ServiceAccount, roles , cluster bind,ClusterRole , ClusterRolebind permissions ( refer RBAC folder )  all tis permissions are under dev namesapce
 
-6. setup and configure jenkins  and install  imp pluggins
+deploy 
+
+```
+
+kubectl apply -f serviceaccount.yaml
+kubectl apply -f role.yaml
+kubectl apply -f rolebinding.yaml
+kubectl apply -f clusterrole.yaml
+kubectl apply -f clusterrolebinding.yaml
+
+```
+
+7. setup and configure jenkins  and install  imp pluggins
 
    .docker
    .kubernetes cli
@@ -30,11 +42,11 @@ kubectl create namespace -n dev
    . pipeline stage view
 
 
-7. create a token from sonarqube
+8. create a token from sonarqube
 
-8. add credentails : docker hub cred , sonarqube token , k8s secret value
+9. add credentails : docker hub cred , sonarqube token , k8s secret value
 
-9. create pipeline job
+10. create pipeline job
 
 ```
 
