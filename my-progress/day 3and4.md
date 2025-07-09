@@ -1,6 +1,6 @@
 day 3 , 4 
 
-outpuu : 
+output : 
 create 2 instances : 
 
 ![image](https://github.com/user-attachments/assets/2dc65223-4b68-413d-9784-98e0fa00df80)
