@@ -9,12 +9,15 @@ steps:
 1. create a iam user wit permission to set of policies to create eks and associated resoources
 
 2. install terraform , create resources under aws cloud .
+   
    refered : https://github.com/nbms12/Microservices-Terraform.git
 
+   application source : https://github.com/jaiswaladi246/3-Tier-DevSecOps-Mega-Project
 
-3. install jenkins and sonarqube servers
 
-4. install kubectl , awscli , and eksctl and configure aws 
+4. install jenkins and sonarqube servers
+
+5. install kubectl , awscli , and eksctl and configure aws 
 
 ```
 kubectl create namespace -n dev
