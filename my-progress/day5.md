@@ -1,7 +1,29 @@
 
 
+Architectural diagram 
+
+![image](https://github.com/user-attachments/assets/633b1e62-5596-438e-b5db-77617559cbe0)
+
+steps:
+
+1. create a iam user wit permission to set of policies to create eks and associated resoources
+
+2. install terraform , create resources under aws cloud .
+   refered : https://github.com/nbms12/Microservices-Terraform.git
 
 
+3. install jenkins and sonarqube servers
+
+4. install kubectl , awscli , and eksctl and configure aws 
+
+```
+kubectl create namespace -n dev
+
+```
+5. inside jenkins server create ServiceAccount, roles , cluster bind,ClusterRole , ClusterRolebind permissions ( refer RBAC folder )  all tis permissions are under dev namesapce
+
+
+   
 eks cluster 
 
 ![image](https://github.com/user-attachments/assets/91006459-c48e-4986-8cde-bff83ccaaa61)
