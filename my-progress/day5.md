@@ -22,6 +22,21 @@ kubectl create namespace -n dev
 ```
 5. inside jenkins server create ServiceAccount, roles , cluster bind,ClusterRole , ClusterRolebind permissions ( refer RBAC folder )  all tis permissions are under dev namesapce
 
+6. setup and configure jenkins  and install  imp pluggins
+
+   .docker
+   .kubernetes cli
+   .nodejs
+   . pipeline stage view
+
+
+7. create a token from sonarqube
+
+8. add credentails : docker hub cred , sonarqube token , k8s secret value
+
+9. create pipeline job
+
+```
 
    
 eks cluster 
