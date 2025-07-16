@@ -23,6 +23,18 @@ steps:
 kubectl create namespace -n dev
 
 ```
+
+gitleaks install 
+
+```
+wget https://github.com/gitleaks/gitleaks/releases/download/v8.21.2/gitleaks_8.21.2_linux_x64.tar.gz
+tar -xzf gitleaks_8.21.2_linux_x64.tar.gz
+sudo mv gitleaks /usr/local/bin/
+sudo chmod +x /usr/local/bin/gitleaks
+gitleaks version
+
+```
+
 5. inside jenkins server create ServiceAccount, roles , cluster bind,ClusterRole , ClusterRolebind permissions ( refer RBAC folder )  all tis permissions are under dev namesapce
 
 deploy 
